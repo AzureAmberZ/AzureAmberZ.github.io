@@ -6,3 +6,7 @@ url: "https://yourusername.github.io" # the base hostname & protocol for your si
 
 markdown: kramdown
 theme: minima # You can use minima or build custom layouts like below
+
+header_pages:
+  - index.md
+  - about.md

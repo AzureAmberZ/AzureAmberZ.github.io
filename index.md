@@ -27,10 +27,8 @@ Select a subject to view all related material:
 
 ## Recent Posts
 
-Here are my latest posts:
-
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:10 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a> 
       <small>({{ post.date | date: "%b %d, %Y" }})</small>
