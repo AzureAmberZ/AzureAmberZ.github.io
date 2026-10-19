@@ -10,6 +10,8 @@ I am a PhD Student studying Statistics.
 
 Welcome to my blog where I post material, tutorials, and updates on Statistics, Data Science, ML/AI, etc.
 
+**[Learn more about me]({{ '/about/' | relative_url }})**
+
 
 
 ## Contents
