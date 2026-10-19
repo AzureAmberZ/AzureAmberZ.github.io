@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<article>
+    <h1>{{ page.title }}</h1>
+    <p><small>Posted on {{ page.date | date: "%B %d, %Y" }}</small></p>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <hr>
+
+    <!-- Giscus Comment Section -->
+    <section class="comments">
+        <h2>Comments</h2>
+        <script src="https://giscus.app/client.js"
+                data-repo="AzureAmberZ/AzureAmberZ.github.io"
+                data-repo-id="R_kgDOVPCPdA"
+                data-category="Announcements"
+                data-category-id="DIC_kwDOVPCPdM4DI9KE"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="dark"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+        </script>
+    </section>
+</article>

@@ -1,0 +1,8 @@
+title: My GitHub Blog
+email: your-email@example.com
+description: A simple blog hosted on GitHub Pages with comments.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+markdown: kramdown
+theme: minima # You can use minima or build custom layouts like below
