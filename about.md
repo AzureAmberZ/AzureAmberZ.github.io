@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About"
+title: "About Me"
 permalink: /about/
 ---
 
@@ -21,7 +21,7 @@ My area of interest are experimental design, nonlinear modeling, functional data
 
 ---
 
-## 📄Documents
+## Documents
 
 Currently Not Available
 <!-- * 📄 **[CV]({{ site.baseurl }}/assets/cv.pdf)** -->

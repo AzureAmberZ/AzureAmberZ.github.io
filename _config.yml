@@ -3,9 +3,9 @@ description: A simple blog hosted on GitHub Pages with comments.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://azureamberz.github.io/" # the base hostname & protocol for your site
 
-markdown: kramdown
-theme: minima
-
 header_pages:
   - index.md
   - about.md
+
+markdown: kramdown
+theme: minima
