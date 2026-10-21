@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Attention"
-date: 2026-10-18 12:00:00 -0500
+date: 2026-10-21 12:00:00 -0500
 tags: [mlai, dl, nlp]
 ---
 
