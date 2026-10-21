@@ -195,7 +195,7 @@ and $\ell = \{0,1,2,...,L\}$ are the layer numbers.
 - $f_{\ell}(x;\theta_{\ell})$ is usually referred to as neurons
 - $\phi_{\ell}(\cdot;V_{\ell})$ are called the activation functions, which are usually ReLU
 
-![Visualization of Neural Network](images\neural_network.png)
+![Visualization of Neural Network](/images/neural_network.png)
 
 Note in this post, I only explained why neural networks
 have the equation they do.
