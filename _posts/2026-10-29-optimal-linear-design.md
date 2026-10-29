@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Attention"
-date: 2026-10-21 12:00:00 -0500
+title: "Introduction to Optimal Design"
+date: 2026-10-29 12:00:00 -0500
 tags: [statistics, design]
 ---
 
@@ -69,7 +69,7 @@ Note $X^T X$ is called the **Information Matrix**
 
 
 An **exact design of size $n$** as defined
-$\{ (x_i,n_i) \}_{i=1}^k$
+$(x_i,n_i)_{i=1}^k$
 is a collection of $k$ distinct points $x_1,...,x_k$
 where $n_i$ is the number of times $x_i$ appears with $N = \sum_{i=1}^k n_i$.
 Then, the Information Matrix is defined as:
@@ -91,7 +91,7 @@ For small sample size $n$, this may not be equivalent to the discrete version,
 but for large sample size $n$, the continuous version is often
 very similar to the discrete version.
 In other words, consider the **approximate design**
-$\{ (w_i,n_i) \}_{i=1}^k$ where $x_i$ are distinct
+$(w_i,n_i)_{i=1}^k$ where $x_i$ are distinct
 and $\sum_{i=1}^k w_i = 1$ with $w_i \geq 0$.
 The information matrix becomes:
 
