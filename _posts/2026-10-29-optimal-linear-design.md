@@ -68,8 +68,7 @@ $(X^TX)^{-1}$ is some way.
 Note $X^T X$ is called the **Information Matrix**
 
 
-An **exact design of size $n$** as defined
-$(x_i,n_i)_{i=1}^k$
+An **exact design of size $n$** as defined $(x_i,n_i)$
 is a collection of $k$ distinct points $x_1,...,x_k$
 where $n_i$ is the number of times $x_i$ appears with $N = \sum_{i=1}^k n_i$.
 Then, the Information Matrix is defined as:
@@ -91,7 +90,7 @@ For small sample size $n$, this may not be equivalent to the discrete version,
 but for large sample size $n$, the continuous version is often
 very similar to the discrete version.
 In other words, consider the **approximate design**
-$(w_i,n_i)_{i=1}^k$ where $x_i$ are distinct
+$(w_i,n_i)$ where $x_i$ are distinct
 and $\sum_{i=1}^k w_i = 1$ with $w_i \geq 0$.
 The information matrix becomes:
 
@@ -110,7 +109,7 @@ Optimal design is a class of experimental design that usually minimizes
 the variance of the model's parameter by deciding which data should be collected.
 
 For linear models $Y = X\theta + \epsilon$ and approximate design
-$(w_i,n_i)_{i=1}^k$ where $x_i$ are distinct
+$(w_i,n_i)$ where $x_i$ are distinct
 and $\sum_{i=1}^k w_i = 1$ with $w_i \geq 0$,
 we aim to optimize
 the information matrix $I(\theta) = \sum_{i=1}^k w_i x_i x_i^T$ in some way.
