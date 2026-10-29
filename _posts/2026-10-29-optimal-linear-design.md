@@ -110,7 +110,7 @@ Optimal design is a class of experimental design that usually minimizes
 the variance of the model's parameter by deciding which data should be collected.
 
 For linear models $Y = X\theta + \epsilon$ and approximate design
-$\{ (w_i,n_i) \}_{i=1}^k$ where $x_i$ are distinct
+$(w_i,n_i)_{i=1}^k$ where $x_i$ are distinct
 and $\sum_{i=1}^k w_i = 1$ with $w_i \geq 0$,
 we aim to optimize
 the information matrix $I(\theta) = \sum_{i=1}^k w_i x_i x_i^T$ in some way.
@@ -123,8 +123,7 @@ which is $\log(|Var(\hat{\theta})|) \propto -\log(|I(\theta)|)$
 
 In this post, I introduced the idea of optimal design using linear models
 and some common statistical criterions to optimize.
-However, the field of optimal design is diverse and have extended this idea
-to more complicated topics like nonlinear models, algorithmic optimality,
-and subdata selection.
+However, this idea has been extended to more complex topics
+like nonlinear models, algorithmic optimality, and subdata selection.
 
 
