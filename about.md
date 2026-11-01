@@ -4,9 +4,9 @@ title: "About Me"
 permalink: /about/
 ---
 
-# Hi, I'm Azure Amber 
+# Hi, I'm Willie Xie
 
-I'm a PhD Student in Statistics studying at the University of Illinois Chicago.
+I'm a Ph.D Student in Statistics studying at the University of Illinois Chicago.
 My area of interest are experimental design, nonlinear modeling, functional data analysis, and machine learning / AI.
 
 ## What I Do
@@ -17,9 +17,13 @@ My area of interest are experimental design, nonlinear modeling, functional data
 * **Random Facts About Me:**
     - My go-to outfit is a white T-shirt and Khakis (maybe a black jacket).
     - I can listen to one song for hours and not get bored.
-    - I hate eating fish by itself, but one of my favorite foods is sushi.
+    - I hate eating seafood by itself, but one of my favorite foods is sushi.
 
 ---
+
+## Course Instruction
+
+- Math 165: Calculus for Business (Fall 2026)
 
 ## Documents
 
